@@ -1,0 +1,81 @@
+﻿GET https://krr-prd.star-api.com/api/player/quest/get_all HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: d2cca5bb5079d0dbe852b776b19afff5b634d06f060e82867006366f9c081a34
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 04:51:50 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: 3b5f359b
+Content-Length: 8296
+
+{"serverVersion":1712191,"resultMessage":"","resultCode":0,"serverTime":"2017-12-19T13:51:50+09:00","eventQuests":[{"eventQuest":{"id":30,"eventType":0,"groupId":102,"groupName":"強化素材収穫　炎","groupSkip":0,"quest":{"id":200100,"name":"強化素材収穫　炎　初級","bgId":0,"warn":0,"bgmCue":null,"lastBgmCue":null,"isHideElement":0,"stamina":10,"rewardMoney":2300,"rewardUserExp":600,"rewardMasterOrbExp":600,"rewardCharacterExp":800,"rewardFriendshipExp":100,"retryLimit":0,"loserBattle":0,"gold1":0,"gem1":5,"itemId1":-1,"amount1":-1,"itemId2":-1,"amount2":-1,"itemId3":-1,"amount3":-1,"waveId1":2001001,"waveId2":2001002,"waveId3":2001003,"waveId4":-1,"waveId5":-1,"advOnly":0,"advId1":-1,"advId2":-1,"advId3":-1,"cpuId":-1,"cpuLevel":1,"cpuLimitBreak":0,"cpuSkillLevel":1,"cpuWeaponId":-1,"cpuWeaponLevel":1,"itemDropCharacters":null,"itemDropAdd":0,"storeReview":0},"startAt":"2017-01-01T00:00:00","endAt":"2099-12-31T00:00:00","orderLimit":-1,"freq":3,"interval":1,"month":0,"day":0,"sun":0,"mon":0,"tue":1,"wed":0,"thu":0,"fri":0,"sat":0,"exId1":-1,"exId2":-1,"ex2Amount":0,"exId3":null,"exTitle":-1,"exName":-1,"exRarity":-1,"exCost":0,"exFire":0,"exWater":0,"exEarth":0,"exWind":0,"exMoon":0,"exSun":0,"exFighter":0,"exMagician":0,"exPriest":0,"exKnight":0,"exAlchemist":0},"clearRank":0,"orderTotal":0,"orderDaily":0},{"eventQuest":{"id":31,"eventType":0,"groupId":102,"groupName":"強化素材収穫　炎","groupSkip":0,"quest":{"id":200101,"name":"強化素材収穫　炎　中級","bgId":0,"warn":0,"bgmCue":null,"lastBgmCue":null,"isHideElement":0,"stamina":20,"rewardMoney":3300,"rewardUserExp":1200,"rewardMasterOrbExp":1200,"rewardCharacterExp":1400,"rewardFriendshipExp":100,"retryLimit":0,"loserBattle":0,"gold1":0,"gem1":5,"itemId1":-1,"amount1":-1,"itemId2":-1,"amount2":-1,"itemId3":-1,"amount3":-1,"waveId1":2001011,"waveId2":2001012,"waveId3":2001013,"waveId4":-1,"waveId5":-1,"advOnly":0,"advId1":-1,"advId2":-1,"advId3":-1,"cpuId":-1,"cpuLevel":1,"cpuLimitBreak":0,"cpuSkillLevel":1,"cpuWeaponId":-1,"cpuWeaponLevel":1,"itemDropCharacters":null,"itemDropAdd":0,"storeReview":0},"startAt":"2017-01-01T00:00:00","endAt":"2099-12-31T00:00:00","orderLimit":-1,"freq":3,"interval":1,"month":0,"day":0,"sun":0,"mon":0,"tue":1,"wed":0,"thu":0,"fri":0,"sat":0,"exId1":-1,"exId2":-1,"ex2Amount":0,"exId3":null,"exTitle":-1,"exName":-1,"exRarity":-1,"exCost":0,"exFire":0,"exWater":0,"exEarth":0,"exWind":0,"exMoon":0,"exSun":0,"exFighter":0,"exMagician":0,"exPriest":0,"exKnight":0,"exAlchemist":0},"clearRank":0,"orderTotal":0,"orderDaily":0},{"eventQuest":{"id":32,"eventType":0,"groupId":102,"groupName":"強化素材収穫　炎","groupSkip":0,"quest":{"id":200102,"name":"強化素材収穫　炎　上級","bgId":1,"warn":0,"bgmCue":null,"lastBgmCue":null,"isHideElement":0,"stamina":0,"rewardMoney":4300,"rewardUserExp":1800,"rewardMasterOrbExp":1800,"rewardCharacterExp":2100,"rewardFriendshipExp":300,"retryLimit":0,"loserBattle":0,"gold1":0,"gem1":5,"itemId1":-1,"amount1":-1,"itemId2":-1,"amount2":-1,"itemId3":-1,"amount3":-1,"waveId1":2001021,"waveId2":2001022,"waveId3":2001023,"waveId4":-1,"waveId5":-1,"advOnly":0,"advId1":-1,"advId2":-1,"advId3":-1,"cpuId":-1,"cpuLevel":1,"cpuLimitBreak":0,"cpuSkillLevel":1,"cpuWeaponId":-1,"cpuWeaponLevel":1,"itemDropCharacters":null,"itemDropAdd":0,"storeReview":0},"startAt":"2017-01-01T00:00:00","endAt":"2099-12-31T00:00:00","orderLimit":-1,"freq":3,"interval":1,"month":0,"day":0,"sun":0,"mon":0,"tue":1,"wed":0,"thu":0,"fri":0,"sat":0,"exId1":-1,"exId2":1003,"ex2Amount":1,"exId3":null,"exTitle":-1,"exName":-1,"exRarity":-1,"exCost":0,"exFire":0,"exWater":0,"exEarth":0,"exWind":0,"exMoon":0,"exSun":0,"exFighter":0,"exMagician":0,"exPriest":0,"exKnight":0,"exAlchemist":0},"clearRank":0,"orderTotal":0,"orderDaily":0},{"eventQuest":{"id":54,"eventType":0,"groupId":202,"groupName":"進化素材収穫　炎","groupSkip":0,"quest":{"id":201100,"name":"進化素材収穫　炎　初級","bgId":0,"warn":0,"bgmCue":null,"lastBgmCue":null,"isHideElement":0,"stamina":10,"rewardMoney":2300,"rewardUserExp":600,"rewardMasterOrbExp":600,"rewardCharacterExp":800,"rewardFriendshipExp":100,"retryLimit":0,"loserBattle":0,"gold1":0,"gem1":5,"itemId1":-1,"amount1":-1,"itemId2":-1,"amount2":-1,"itemId3":-1,"amount3":-1,"waveId1":2011001,"waveId2":2011002,"waveId3":2011003,"waveId4":-1,"waveId5":-1,"advOnly":0,"advId1":-1,"advId2":-1,"advId3":-1,"cpuId":-1,"cpuLevel":1,"cpuLimitBreak":0,"cpuSkillLevel":1,"cpuWeaponId":-1,"cpuWeaponLevel":1,"itemDropCharacters":null,"itemDropAdd":0,"storeReview":0},"startAt":"2017-01-01T00:00:00","endAt":"2099-12-31T00:00:00","orderLimit":-1,"freq":3,"interval":1,"month":0,"day":0,"sun":0,"mon":0,"tue":1,"wed":0,"thu":0,"fri":0,"sat":0,"exId1":-1,"exId2":-1,"ex2Amount":0,"exId3":null,"exTitle":-1,"exName":-1,"exRarity":-1,"exCost":0,"exFire":0,"exWater":0,"exEarth":0,"exWind":0,"exMoon":0,"exSun":0,"exFighter":0,"exMagician":0,"exPriest":0,"exKnight":0,"exAlchemist":0},"clearRank":0,"orderTotal":0,"orderDaily":0},{"eventQuest":{"id":55,"eventType":0,"groupId":202,"groupName":"進化素材収穫　炎","groupSkip":0,"quest":{"id":201101,"name":"進化素材収穫　炎　中級","bgId":0,"warn":0,"bgmCue":null,"lastBgmCue":null,"isHideElement":0,"stamina":20,"rewardMoney":3300,"rewardUserExp":1200,"rewardMasterOrbExp":1200,"rewardCharacterExp":1400,"rewardFriendshipExp":200,"retryLimit":0,"loserBattle":0,"gold1":0,"gem1":5,"itemId1":-1,"amount1":-1,"itemId2":-1,"amount2":-1,"itemId3":-1,"amount3":-1,"waveId1":2011011,"waveId2":2011012,"waveId3":2011013,"waveId4":-1,"waveId5":-1,"advOnly":0,"advId1":-1,"advId2":-1,"advId3":-1,"cpuId":-1,"cpuLevel":1,"cpuLimitBreak":0,"cpuSkillLevel":1,"cpuWeaponId":-1,"cpuWeaponLevel":1,"itemDropCharacters":null,"itemDropAdd":0,"storeReview":0},"startAt":"2017-01-01T00:00:00","endAt":"2099-12-31T00:00:00","orderLimit":-1,"freq":3,"interval":1,"month":0,"day":0,"sun":0,"mon":0,"tue":1,"wed":0,"thu":0,"fri":0,"sat":0,"exId1":-1,"exId2":-1,"ex2Amount":0,"exId3":null,"exTitle":-1,"exName":-1,"exRarity":-1,"exCost":0,"exFire":0,"exWater":0,"exEarth":0,"exWind":0,"exMoon":0,"exSun":0,"exFighter":0,"exMagician":0,"exPriest":0,"exKnight":0,"exAlchemist":0},"clearRank":0,"orderTotal":0,"orderDaily":0},{"eventQuest":{"id":100100,"eventType":1001,"groupId":100101,"groupName":"エトワリアのサンタクロース Season 1","groupSkip":0,"quest":{"id":3100102,"name":"ツリーの準備 ・千矢と一緒に","bgId":2,"warn":0,"bgmCue":"bgm_battle_xmas","lastBgmCue":null,"isHideElement":0,"stamina":3,"rewardMoney":1400,"rewardUserExp":340,"rewardMasterOrbExp":340,"rewardCharacterExp":150,"rewardFriendshipExp":30,"retryLimit":0,"loserBattle":0,"gold1":0,"gem1":5,"itemId1":-1,"amount1":-1,"itemId2":-1,"amount2":-1,"itemId3":-1,"amount3":-1,"waveId1":31001021,"waveId2":31001022,"waveId3":31001023,"waveId4":-1,"waveId5":-1,"advOnly":0,"advId1":2002001003,"advId2":2002001004,"advId3":-1,"cpuId":-1,"cpuLevel":1,"cpuLimitBreak":0,"cpuSkillLevel":1,"cpuWeaponId":-1,"cpuWeaponLevel":1,"itemDropCharacters":null,"itemDropAdd":0,"storeReview":0},"startAt":"2017-12-18T17:00:00","endAt":"2017-12-26T13:59:59","orderLimit":-1,"freq":4,"interval":1,"month":0,"day":0,"sun":0,"mon":0,"tue":0,"wed":0,"thu":0,"fri":0,"sat":0,"exId1":-1,"exId2":-1,"ex2Amount":0,"exId3":null,"exTitle":-1,"exName":-1,"exRarity":-1,"exCost":0,"exFire":0,"exWater":0,"exEarth":0,"exWind":0,"exMoon":0,"exSun":0,"exFighter":0,"exMagician":0,"exPriest":0,"exKnight":0,"exAlchemist":0},"clearRank":0,"orderTotal":0,"orderDaily":0}],"quests":[{"quest":{"id":1100010,"name":"導かれし出会い","bgId":0,"warn":1,"bgmCue":null,"lastBgmCue":null,"isHideElement":0,"stamina":2,"rewardMoney":1200,"rewardUserExp":10,"rewardMasterOrbExp":10,"rewardCharacterExp":110,"rewardFriendshipExp":20,"retryLimit":0,"loserBattle":0,"gold1":0,"gem1":5,"itemId1":-1,"amount1":-1,"itemId2":-1,"amount2":-1,"itemId3":-1,"amount3":-1,"waveId1":11000101,"waveId2":11000102,"waveId3":-1,"waveId4":-1,"waveId5":-1,"advOnly":0,"advId1":1000003,"advId2":1000004,"advId3":-1,"cpuId":-1,"cpuLevel":1,"cpuLimitBreak":0,"cpuSkillLevel":1,"cpuWeaponId":-1,"cpuWeaponLevel":1,"itemDropCharacters":"10020000;10030000","itemDropAdd":60,"storeReview":0},"clearRank":0}]}
+
+
+
+
+---------------------------------------------------------
+GET https://krr-prd.star-api.com/api/quest_chapter/get_all HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 7e90eade28e4dd17cde32745615d19eca8537a4c044446c1e4bdc6a3657d214a
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 04:51:50 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: 8622b2ff
+Content-Length: 1434
+
+{"chapters":[{"id":1,"difficulty":0,"name":"はるかなる旅立ち　ノーマル","questIds":[1100010,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]},{"id":2,"difficulty":0,"name":"この世界でも、笑顔を　ノーマル","questIds":[1101010,1101020,1101030,1101040,1101050,1101060,1101070,1101080,1101090,1101100,1101110,1101120,1101130,1101140,1101150,1101160,1101170,1101180,1101190,1101200,1101210,1101220,1101230,1101240,1101250,1101260,1101270,1101280,1101290,1101300,1101310,1101320,-1,-1,-1,-1,-1,-1,-1,-1,-1]},{"id":3,"difficulty":0,"name":"続きから▷港町　ノーマル","questIds":[1102010,1102020,1102030,1102040,1102050,1102060,1102070,1102080,1102090,1102100,1102110,1102120,1102130,1102140,1102150,1102160,1102170,1102180,1102190,1102200,1102210,1102220,1102230,1102240,1102250,1102260,1102270,1102280,1102290,1102300,1102310,1102320,-1,-1,-1,-1,-1,-1,-1,-1,-1]},{"id":4,"difficulty":0,"name":"さばくぐらし？　ノーマル","questIds":[1103010,1103020,1103030,1103040,1103050,1103060,1103070,1103080,1103090,1103100,1103110,1103120,1103130,1103140,1103150,1103160,1103170,1103180,1103190,1103200,1103210,1103220,1103230,1103240,1103250,1103260,1103270,1103280,1103290,1103300,1103310,1103320,-1,-1,-1,-1,-1,-1,-1,-1,-1]}],"serverTime":"2017-12-19T13:51:50+09:00","serverVersion":1712191,"resultMessage":"","resultCode":0}
+
+
+---------------------------------------------------------
+
+POST https://krr-prd.star-api.com/api/player/quest_log/add HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 18419f46e1a4505741ea08e8fef206a4aa1733183622cd4a9d98510ca4a26bd0
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 583
+
+{"type":1,"questId":1100010,"managedBattlePartyId":31142433,"supportCharacterId":-1,"questData":"eJx9U11vgjAU/S/3mZkW8GE8CnNxwcWJkwdjTCdVyPgKbc3M4n9fW77MgoQH7jn3ntPTG4AtrcABPEETCwwIxFdN2BKsYsIoOE/YgDU9XhZeXX8IyrgCGCOEMJKD/LrMz4qyMLZN27IMcIucu4XIOThyIiQXuoh+dL1kPPhO0rTvtsw8PYNzIimjBsyraHMtqe7L2o1JRdoELfYvMoSG/qwd/Ax61pU1A2e31ygs7/Rh2Y+F5Z2GxUnZeq1pRpJ8I6q8c2e0j13jqIv8SsRZBv6FLUnlwATdDNjMxOmkuOzgJ4yrMJJ9yWmWUFbzajcqpaq7RoeuetPPSO/aaMkmb3bwqkJfSw7cjCGNNaIxrWGNPaKx7Nu+Vz3Oao54YHP43OmIxp4Oa9D4TvYqLQTHmEYipQtOszpwX3mEk4bztMG7yOS7vmXb/Ac0fGRhDls0Tb3d4SPkI/8lv/liV/5bkeTyp9H4D2X/Ghg="}
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 04:51:50 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: 70e03d09
+Content-Length: 1386
+
+{"resultCode":0,"itemSummary":[{"id":1002,"amount":1},{"id":2012,"amount":6},{"id":2013,"amount":5},{"id":2014,"amount":5},{"id":2015,"amount":5},{"id":2016,"amount":5},{"id":2017,"amount":5},{"id":4000,"amount":0},{"id":4001,"amount":0},{"id":4002,"amount":1},{"id":4003,"amount":0},{"id":4004,"amount":2},{"id":4005,"amount":0},{"id":4006,"amount":0},{"id":4007,"amount":0},{"id":4008,"amount":0},{"id":4009,"amount":0},{"id":4012,"amount":0},{"id":9000,"amount":1},{"id":10000,"amount":1},{"id":10001,"amount":1}],"orderReceiveId":27343167,"player":{"id":3114332,"name":"kqq1mjb","comment":null,"age":0,"myCode":"X7GMZS5X9G","level":1,"levelExp":0,"totalExp":0,"gold":100000,"kirara":0,"unlimitedGem":0,"limitedGem":0,"lotteryTicket":0,"partyCost":30,"stamina":10,"staminaMax":10,"staminaUpdatedAt":"2017-12-19T11:12:20","recastTime":0,"recastTimeMax":300,"kiraraLimit":10000,"weaponLimit":10,"weaponLimitCount":0,"facilityLimit":10,"facilityLimitCount":0,"roomObjectLimit":100,"roomObjectLimitCount":0,"characterLimit":0,"itemLimit":0,"friendLimit":20,"supportLimit":6,"loginCount":6,"loginDays":1,"continuousDays":1,"lastLoginAt":"2017-12-19T13:46:47","ipAddr":"14.147.76.57","userAgent":"Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)","state":1,"createdAt":"2017-12-19T11:12:20"},"resultMessage":"","serverVersion":1712191,"serverTime":"2017-12-19T13:51:50+09:00"}

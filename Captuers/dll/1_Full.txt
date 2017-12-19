@@ -1,0 +1,212 @@
+POST https://krr-prd.star-api.com/api/player/adv/add HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: db9916fa8a646760ee13e961a91e499e374917e5dbf904a90add4ccf994b73b1
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 33
+
+{"advId":"1000004","stepCode":10}
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:01:41 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: bded558d
+Content-Length: 100
+
+{"serverVersion":1712191,"resultCode":0,"serverTime":"2017-12-19T14:01:29+09:00","resultMessage":""}
+
+------------------------------------------------------------------
+
+GET https://krr-prd.star-api.com/api/player/town/get_all?playerId=3114332 HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 6f06170228150f20f3e27431064a5210e3e24986137ada4187d1f9f1d2d7d191
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:02:27 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: 4f1b1e6
+Content-Length: 118
+
+{"managedTowns":[],"serverVersion":1712191,"resultCode":0,"serverTime":"2017-12-19T14:02:27+09:00","resultMessage":""}
+
+------------------------------------------------------------------
+
+POST https://krr-prd.star-api.com/api/player/town/set HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 2347a4fac08762394d794154c19594c0ebdaba503477d6a35d2bef46f1c180df
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1439
+
+{"gridData":"eyJtX1ZlciI6MSwibV9EYXRhVHlwZSI6MCwibV9EYXRhIjoiZXlKdFgxUmhZbXhsSWpwYmV5SnRYMDFoYm1GblpVbEVJam95TWpZd01EYzJOU3dpYlY5Q2RXbHNaRkJ2YVc1MFNXNWtaWGdpT2pBc0ltMWZUMkpxU1VRaU9qQXNJbTFmVEhZaU9qRXNJbTFmU1hOUGNHVnVJanAwY25WbExDSnRYMEoxYVd4a2FXNW5UWE1pT2pBc0ltMWZRV04wYVc5dVZHbHRaU0k2TUgwc2V5SnRYMDFoYm1GblpVbEVJam95TWpZd01EYzJOaXdpYlY5Q2RXbHNaRkJ2YVc1MFNXNWtaWGdpT2pJMk9EUXpOalkxTml3aWJWOVBZbXBKUkNJNk1USXdNQ3dpYlY5TWRpSTZNU3dpYlY5SmMwOXdaVzRpT25SeWRXVXNJbTFmUW5WcGJHUnBibWROY3lJNk1Dd2liVjlCWTNScGIyNVVhVzFsSWpvd2ZTeDdJbTFmVFdGdVlXZGxTVVFpT2pJeU5qQXdOelkzTENKdFgwSjFhV3hrVUc5cGJuUkpibVJsZUNJNk1qWTRORE0yTmpVNExDSnRYMDlpYWtsRUlqb3hNakF5TENKdFgweDJJam94TENKdFgwbHpUM0JsYmlJNmRISjFaU3dpYlY5Q2RXbHNaR2x1WjAxeklqb3dMQ0p0WDBGamRHbHZibFJwYldVaU9qQjlMSHNpYlY5TllXNWhaMlZKUkNJNk1qSTJNREEzTmpnc0ltMWZRblZwYkdSUWIybHVkRWx1WkdWNElqb3lOamcwTXpZMk5Ua3NJbTFmVDJKcVNVUWlPakV5TURNc0ltMWZUSFlpT2pFc0ltMWZTWE5QY0dWdUlqcDBjblZsTENKdFgwSjFhV3hrYVc1blRYTWlPakFzSW0xZlFXTjBhVzl1VkdsdFpTSTZNSDBzZXlKdFgwMWhibUZuWlVsRUlqb3lNall3TURjM01Dd2liVjlDZFdsc1pGQnZhVzUwU1c1a1pYZ2lPakkyT0RRek5qWTJNQ3dpYlY5UFltcEpSQ0k2TVRJd05Dd2liVjlNZGlJNk1Td2liVjlKYzA5d1pXNGlPblJ5ZFdVc0ltMWZRblZwYkdScGJtZE5jeUk2TUN3aWJWOUJZM1JwYjI1VWFXMWxJam93ZlN4N0ltMWZUV0Z1WVdkbFNVUWlPakl5TmpBd056Y3hMQ0p0WDBKMWFXeGtVRzlwYm5SSmJtUmxlQ0k2TWpZNE5ETTJOall4TENKdFgwOWlha2xFSWpveE1qQTFMQ0p0WDB4Mklqb3hMQ0p0WDBselQzQmxiaUk2ZEhKMVpTd2liVjlDZFdsc1pHbHVaMDF6SWpvd0xDSnRYMEZqZEdsdmJsUnBiV1VpT2pCOVhYMD0ifQ=="}
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:02:27 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: 8fca3552
+Content-Length: 124
+
+{"serverTime":"2017-12-19T14:02:27+09:00","resultMessage":"","serverVersion":1712191,"managedTownId":1557134,"resultCode":0}
+
+------------------------------------------------------------------
+
+POST https://krr-prd.star-api.com/api/player/field_party/member/change_schedule_all HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 54b4f1769fed8b24385a132ad16748fbed0dbd33fc1df52d0d345d48cafa05c2
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 2593
+
+{"changeScheduleMembers":[{"managedPartyMemberId":9377732,"scheduleId":0,"scheduleTag":0,"managedFacilityId":22600765,"touchItemResultNo":-1,"flag":4,"scheduleTable":"eyJtX0RheUxpc3RVcCI6W3sibV9UYWJsZSI6W3sibV9UeXBlIjoxLCJtX1dha2VUaW1lIjowLCJtX1VzZVRpbWUiOjIxNjAwLCJtX1RhZ05hbWVJRCI6MH0seyJtX1R5cGUiOjIsIm1fV2FrZVRpbWUiOjIxNjAwLCJtX1VzZVRpbWUiOjU3NjAwLCJtX1RhZ05hbWVJRCI6MX0seyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjc5MjAwLCJtX1VzZVRpbWUiOjcyMDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6NiwibV9XYWtlVGltZSI6ODY0MDAsIm1fVXNlVGltZSI6MCwibV9UYWdOYW1lSUQiOjB9XSwibV9TZXR0aW5nVGltZSI6MTUxMzY4ODU0NzAwMDAwMDAsIm1fQ2hhbmdlU3RhdGVUaW1lIjoxNTEzNjg4NTQ3MDAwMDAwMH0seyJtX1RhYmxlIjpbeyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjAsIm1fVXNlVGltZSI6MjE2MDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6MiwibV9XYWtlVGltZSI6MjE2MDAsIm1fVXNlVGltZSI6MjE2MDAsIm1fVGFnTmFtZUlEIjoxfSx7Im1fVHlwZSI6NSwibV9XYWtlVGltZSI6NDMyMDAsIm1fVXNlVGltZSI6MzYwMCwibV9UYWdOYW1lSUQiOjEwMDEzfSx7Im1fVHlwZSI6MiwibV9XYWtlVGltZSI6NDY4MDAsIm1fVXNlVGltZSI6MzI0MDAsIm1fVGFnTmFtZUlEIjoxfSx7Im1fVHlwZSI6MSwibV9XYWtlVGltZSI6NzkyMDAsIm1fVXNlVGltZSI6NzIwMCwibV9UYWdOYW1lSUQiOjB9LHsibV9UeXBlIjo2LCJtX1dha2VUaW1lIjo4NjQwMCwibV9Vc2VUaW1lIjowLCJtX1RhZ05hbWVJRCI6MH1dLCJtX1NldHRpbmdUaW1lIjoxNTEzNjg4NTQ3MDAwMDAwMCwibV9DaGFuZ2VTdGF0ZVRpbWUiOjE1MTM3MjA4MDAwMDAwMDAwfV0sIm1fUGxheVRpbWUiOjE1MTM3MjgwMDAsIm1fVmVyc2lvbiI6MSwibV9Ecm9wSXRlbUlEIjotMSwibV9Ecm9wTWFnS2V5IjowLjB9","dropPresent":[]},{"managedPartyMemberId":9377734,"scheduleId":0,"scheduleTag":0,"managedFacilityId":22600765,"touchItemResultNo":-1,"flag":4,"scheduleTable":"eyJtX0RheUxpc3RVcCI6W3sibV9UYWJsZSI6W3sibV9UeXBlIjoxLCJtX1dha2VUaW1lIjowLCJtX1VzZVRpbWUiOjIxNjAwLCJtX1RhZ05hbWVJRCI6MH0seyJtX1R5cGUiOjIsIm1fV2FrZVRpbWUiOjIxNjAwLCJtX1VzZVRpbWUiOjYxMjAwLCJtX1RhZ05hbWVJRCI6MX0seyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjgyODAwLCJtX1VzZVRpbWUiOjM2MDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6NiwibV9XYWtlVGltZSI6ODY0MDAsIm1fVXNlVGltZSI6MCwibV9UYWdOYW1lSUQiOjB9XSwibV9TZXR0aW5nVGltZSI6MTUxMzY4ODU0NzAwMDAwMDAsIm1fQ2hhbmdlU3RhdGVUaW1lIjoxNTEzNjg4NTQ3MDAwMDAwMH0seyJtX1RhYmxlIjpbeyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjAsIm1fVXNlVGltZSI6MjUyMDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6MiwibV9XYWtlVGltZSI6MjUyMDAsIm1fVXNlVGltZSI6NTc2MDAsIm1fVGFnTmFtZUlEIjoxfSx7Im1fVHlwZSI6MSwibV9XYWtlVGltZSI6ODI4MDAsIm1fVXNlVGltZSI6MzYwMCwibV9UYWdOYW1lSUQiOjB9LHsibV9UeXBlIjo2LCJtX1dha2VUaW1lIjo4NjQwMCwibV9Vc2VUaW1lIjowLCJtX1RhZ05hbWVJRCI6MH1dLCJtX1NldHRpbmdUaW1lIjoxNTEzNjg4NTQ3MDAwMDAwMCwibV9DaGFuZ2VTdGF0ZVRpbWUiOjE1MTM3MjQ0MDAwMDAwMDAwfV0sIm1fUGxheVRpbWUiOjE1MTM3MjgwMDAsIm1fVmVyc2lvbiI6MSwibV9Ecm9wSXRlbUlEIjotMSwibV9Ecm9wTWFnS2V5IjowLjB9","dropPresent":[]}]}
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:02:28 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: 5cca1319
+Content-Length: 100
+
+{"serverVersion":1712191,"resultCode":0,"resultMessage":"","serverTime":"2017-12-19T14:02:28+09:00"}
+
+------------------------------------------------------------------
+
+POST https://krr-prd.star-api.com/api/player/field_party/member/change_schedule_all HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 57cd364bc1bb29c5f1f49898a94fbce8bb1fb8692ebb6c1a0ce81af88c4d8395
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 2595
+
+{"changeScheduleMembers":[{"managedPartyMemberId":9377732,"scheduleId":1,"scheduleTag":1,"managedFacilityId":22600765,"touchItemResultNo":-1,"flag":44,"scheduleTable":"eyJtX0RheUxpc3RVcCI6W3sibV9UYWJsZSI6W3sibV9UeXBlIjoxLCJtX1dha2VUaW1lIjowLCJtX1VzZVRpbWUiOjIxNjAwLCJtX1RhZ05hbWVJRCI6MH0seyJtX1R5cGUiOjIsIm1fV2FrZVRpbWUiOjIxNjAwLCJtX1VzZVRpbWUiOjU3NjAwLCJtX1RhZ05hbWVJRCI6MX0seyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjc5MjAwLCJtX1VzZVRpbWUiOjcyMDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6NiwibV9XYWtlVGltZSI6ODY0MDAsIm1fVXNlVGltZSI6MCwibV9UYWdOYW1lSUQiOjB9XSwibV9TZXR0aW5nVGltZSI6MTUxMzY4ODU0NzAwMDAwMDAsIm1fQ2hhbmdlU3RhdGVUaW1lIjoxNTEzNjYzMjAwMDAwMDAwMH0seyJtX1RhYmxlIjpbeyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjAsIm1fVXNlVGltZSI6MjE2MDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6MiwibV9XYWtlVGltZSI6MjE2MDAsIm1fVXNlVGltZSI6MjE2MDAsIm1fVGFnTmFtZUlEIjoxfSx7Im1fVHlwZSI6NSwibV9XYWtlVGltZSI6NDMyMDAsIm1fVXNlVGltZSI6MzYwMCwibV9UYWdOYW1lSUQiOjEwMDEzfSx7Im1fVHlwZSI6MiwibV9XYWtlVGltZSI6NDY4MDAsIm1fVXNlVGltZSI6MzI0MDAsIm1fVGFnTmFtZUlEIjoxfSx7Im1fVHlwZSI6MSwibV9XYWtlVGltZSI6NzkyMDAsIm1fVXNlVGltZSI6NzIwMCwibV9UYWdOYW1lSUQiOjB9LHsibV9UeXBlIjo2LCJtX1dha2VUaW1lIjo4NjQwMCwibV9Vc2VUaW1lIjowLCJtX1RhZ05hbWVJRCI6MH1dLCJtX1NldHRpbmdUaW1lIjoxNTEzNjg4NTQ3MDAwMDAwMCwibV9DaGFuZ2VTdGF0ZVRpbWUiOjE1MTM3MjA4MDAwMDAwMDAwfV0sIm1fUGxheVRpbWUiOjE1MTM2ODg1NDgsIm1fVmVyc2lvbiI6MSwibV9Ecm9wSXRlbUlEIjotMSwibV9Ecm9wTWFnS2V5IjowLjB9","dropPresent":[]},{"managedPartyMemberId":9377734,"scheduleId":1,"scheduleTag":1,"managedFacilityId":22600765,"touchItemResultNo":-1,"flag":44,"scheduleTable":"eyJtX0RheUxpc3RVcCI6W3sibV9UYWJsZSI6W3sibV9UeXBlIjoxLCJtX1dha2VUaW1lIjowLCJtX1VzZVRpbWUiOjIxNjAwLCJtX1RhZ05hbWVJRCI6MH0seyJtX1R5cGUiOjIsIm1fV2FrZVRpbWUiOjIxNjAwLCJtX1VzZVRpbWUiOjYxMjAwLCJtX1RhZ05hbWVJRCI6MX0seyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjgyODAwLCJtX1VzZVRpbWUiOjM2MDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6NiwibV9XYWtlVGltZSI6ODY0MDAsIm1fVXNlVGltZSI6MCwibV9UYWdOYW1lSUQiOjB9XSwibV9TZXR0aW5nVGltZSI6MTUxMzY4ODU0NzAwMDAwMDAsIm1fQ2hhbmdlU3RhdGVUaW1lIjoxNTEzNjYzMjAwMDAwMDAwMH0seyJtX1RhYmxlIjpbeyJtX1R5cGUiOjEsIm1fV2FrZVRpbWUiOjAsIm1fVXNlVGltZSI6MjUyMDAsIm1fVGFnTmFtZUlEIjowfSx7Im1fVHlwZSI6MiwibV9XYWtlVGltZSI6MjUyMDAsIm1fVXNlVGltZSI6NTc2MDAsIm1fVGFnTmFtZUlEIjoxfSx7Im1fVHlwZSI6MSwibV9XYWtlVGltZSI6ODI4MDAsIm1fVXNlVGltZSI6MzYwMCwibV9UYWdOYW1lSUQiOjB9LHsibV9UeXBlIjo2LCJtX1dha2VUaW1lIjo4NjQwMCwibV9Vc2VUaW1lIjowLCJtX1RhZ05hbWVJRCI6MH1dLCJtX1NldHRpbmdUaW1lIjoxNTEzNjg4NTQ3MDAwMDAwMCwibV9DaGFuZ2VTdGF0ZVRpbWUiOjE1MTM3MjQ0MDAwMDAwMDAwfV0sIm1fUGxheVRpbWUiOjE1MTM2ODg1NDgsIm1fVmVyc2lvbiI6MSwibV9Ecm9wSXRlbUlEIjotMSwibV9Ecm9wTWFnS2V5IjowLjB9","dropPresent":[]}]}
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:02:29 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: de3f499b
+Content-Length: 100
+
+{"serverVersion":1712191,"resultCode":0,"resultMessage":"","serverTime":"2017-12-19T14:02:29+09:00"}
+
+------------------------------------------------------------------
+
+GET https://krr-prd.star-api.com/api/player/badge/get HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 7f43133b7956f42ff2ba057fa7974563e508fdb41e6a90058bca6b9251a8195c
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:02:38 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: c225c40f
+Content-Length: 163
+
+{"serverVersion":1712191,"presentCount":0,"serverTime":"2017-12-19T14:02:38+09:00","resultCode":0,"friendProposedCount":0,"resultMessage":"","missionClearCount":0}
+
+------------------------------------------------------------------
+
+GET https://krr-prd.star-api.com/api/player/login_bonus/get HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: c5586672f153f4eb1ed04ae7379eb269277b40fd298798b021b08b97d17ab693
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:02:38 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: 98cfad6d
+Content-Length: 113
+
+{"serverVersion":1712191,"resultMessage":"","resultCode":0,"bonuses":[],"serverTime":"2017-12-19T14:02:38+09:00"}
+
+------------------------------------------------------------------
+
+GET https://krr-prd.star-api.com/api/information/get_all?platform=2 HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 82cc604914a37a3d9d6afd31a0b3483254215dfb38f4b41ed04d7dfb28471b47
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Dec 2017 05:02:38 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Cache-Control: no-cache,max-age=0
+Pragma: no-cache
+X-Star-CC: a9b15c22
+Content-Length: 490
+
+{"resultCode":0,"informations":[{"id":2,"title":null,"body":null,"imgId":"2017Christmas1","url":"https://krr-prd-web.star-api.com/news/1288/","platform":0,"startAt":"2017-12-18T15:00:00","endAt":"2017-12-22T13:59:59"},{"id":3,"title":null,"body":null,"imgId":"2017Christmasiv","url":"https://krr-prd-web.star-api.com/news/1259/","platform":0,"startAt":"2017-12-18T15:00:00","endAt":"2017-12-26T13:59:59"}],"serverVersion":1712191,"serverTime":"2017-12-19T14:02:38+09:00","resultMessage":""}
+
+------------------------------------------------------------------
+

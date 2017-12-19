@@ -1,0 +1,14 @@
+POST https://krr-prd.star-api.com/api/player/quest_log/add HTTP/1.1
+Unity-User-Agent: app/0.0.0; Android OS 5.1.1 / API-22 LMY48Z/eng..20171207.185924; samsung SM-G925F
+X-STAR-REQUESTHASH: 778fbeac28267f727ab565e0e512810f77a98cb34decb06a486d31b4a7b2f94b
+X-Unity-Version: 5.5.4f1
+X-STAR-AB: 3
+X-STAR-SESSION-ID: 47fa99dc-1f4b-49c9-996f-429c3abb0694
+Content-Type: application/json; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/LMY48Z)
+Host: krr-prd.star-api.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 626
+
+{"type":2,"questId":100100,"managedBattlePartyId":31142433,"supportCharacterId":2579063867,"questData":"eJytVF1rwjAU/S/3OUrSloF9VOdw1OGs0weRkdloy/ohTSuT4X9fbmLbgQod7qFwzsn9OPemLSxEDi6wLu3aQMAvP4zgKDINuRTgdhiBmdgcxkODX0shCyQ2o5RRSwUWx0m6MxJzLMe2CQyytBhkZVqASwks+UGMgy+NJ7LwP6M4bk4rZRTvwN3yWAoCozyYH/eqPdN4EPKcYwf2QKlFKW1U7wCu09Pc6+t6Cr35KFsmSmEJ7sohbK2F5b6aRROMpGfsN0SG0V5V1ngmEh6l8zJP6wZSNAMYHtTmn3i5U9a/YcFjFdClJwLzfrndopa8e5FUeau1Uh9TkURCGh23hEYR1wc1O+rxe2rleulnUU+PbJhneiy8FPWcyGWeg2v7Wx4u6VeGoVVKh53WTfxtt//e9cpsdpudtHDbqs7dbhlr5RbfEH8TiqCMxbgQibHcoCEvuDRv0k2i6WWK0s6t8HpeykQRHVmpdq3eV71NnatmsLj6XqeeDkfwnEWp+oto/gPcEGh6"}

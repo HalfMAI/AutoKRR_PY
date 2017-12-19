@@ -1,0 +1,233 @@
+GET /api/app/version/get?platform=1&version=1.0.3 HTTP/1.1
+Host: krr-prd.star-api.com
+Content-Type: application/json; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Accept: */*
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Language: zh-tw
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+X-STAR-REQUESTHASH: 77d3c78b465970bb00a91f7ac932aa0a14c4eaefa08104d529b8fb3168724c4c
+X-Unity-Version: 5.5.4f1
+
+
+POST /api/player/signup HTTP/1.1
+Host: krr-prd.star-api.com
+X-Unity-Version: 5.5.4f1
+X-STAR-REQUESTHASH: 6498a4fc1cac9b74fd714ace0625a9c722623b37b438179386fc4c6f1a174265
+Accept: */*
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+Content-Length: 86
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+{"uuid":"2c7c4f93-caaf-417e-8898-821f440d763c","platform":1,"name":"Qqq","stepCode":1}
+
+
+POST /api/player/login HTTP/1.1
+Host: krr-prd.star-api.com
+X-Unity-Version: 5.5.4f1
+X-STAR-REQUESTHASH: a678f2493f962bf67cc754160a0a0b5f1c62f033003e238fc2b6738a36ec8e3b
+Accept: */*
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+Content-Length: 134
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+{"uuid":"2c7c4f93-caaf-417e-8898-821f440d763c","accessToken":"205b669b-7a23-4e60-b5c7-8db35b3f46d0","platform":1,"appVersion":"1.0.3"}
+
+
+
+GET /api/player/get_all HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: ef2d6e14ee8ccdb99449ef7098cdae8337d3dbb2a2b15019e59441f14c36145b
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+GET /api/player/quest/get_all HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: 099b68535dc648b725ad9dfadd7ea93da3b0d78e87f063c9731da9ab8a7aa2c9
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+GET /api/quest_chapter/get_all HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: c856a67a406ee7dddae8ecba5feb2250a12ec358bcecd1bbc566459ca95884d2
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+GET /api/player/mission/get_all HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: 41fc43b8b57d5d666200c3066f9eb2a9887f17bd1505e5807d7a470693b39ae4
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+GET /api/player/present/get_all HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: 735f397639d107dea15ccc6d56df6537f084f43202721fc09ab2a6e9513babb3
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+GET /api/player/present/get?managedPresentId=67112023,67112022,67112026,67112024,67112021,67112018,67112017,67112020,67112019&stepCode=2 HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: eabf6cf7a9ab2f86013baf8fd78b2a92b030c25679130c05b3ee63aac52a8509
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+POST /api/player/adv/add HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: 3f9948fb8a2abe59ae10cec13397bce0612fc65e609ffb094fe87887f5e3059c
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+Content-Length: 32
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+X-STAR-AB: 3
+Connection: keep-alive
+{"advId":"1000000","stepCode":3}
+
+
+GET /api/player/gacha/get_all?gachaIds=1 HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: dce00cca2333bbc28497c2644b531b7831b30a5f336e6c2dbe2c453f5c90ef88
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+POST /api/player/gacha/draw HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: a3f0ebd87e13bd45f68e4eab4928ff7a564aa4e76dfd39215c902c29ee9e5ff2
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+Content-Length: 54
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+X-STAR-AB: 3
+Connection: keep-alive
+{"gachaId":1,"drawType":3,"stepCode":4,"reDraw":false}
+
+
+POST /api/player/gacha/draw HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: 03ee7c5c6a0180aefb25698c3e23205946cd32a258f6ec2075a8221ba6f299ec
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+Content-Length: 53
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+X-STAR-AB: 3
+Connection: keep-alive
+{"gachaId":1,"drawType":3,"stepCode":0,"reDraw":true}
+
+
+GET /api/player/badge/get HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: 4f138aa26b546f0931d33a55b2a399d9cf1acd0bf6dd11ba20e3d33a3a3401dc
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+Connection: keep-alive
+X-STAR-AB: 3
+
+
+POST /api/player/character/set_shown HTTP/1.1
+Host: krr-prd.star-api.com
+X-STAR-SESSION-ID: 25cc62f4-29c5-4872-aadb-c34f9ecb7f45
+X-STAR-REQUESTHASH: 4f0a5ffd0a47a59430dad6ccd0b05d80f8c23885caf27b0116d59723f658ed74
+Accept: */*
+X-Unity-Version: 5.5.4f1
+Unity-User-Agent: app/0.0.0; iOS 11.2.1; iPhone6
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-tw
+Content-Type: application/json; charset=UTF-8
+Content-Length: 43
+User-Agent: kirarafantasia/19 CFNetwork/893.14.2 Darwin/17.3.0
+X-STAR-AB: 3
+Connection: keep-alive
+
+{"managedCharacterId":2559781749,"shown":1}

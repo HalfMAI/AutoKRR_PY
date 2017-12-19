@@ -5,7 +5,8 @@ from configReader import config_load_accesstoken, config_load_uuid, config_load_
 
 
 k_KRR_API_URL = "https://krr-prd.star-api.com"
-k_KRR_KEY = "85af4a94ce7a280f69844743212a8b867206ab28946e1e30e6c1a10196609a11"
+
+k_KRR_KEY = "85af4a94ce7a280f69844743212a8b" + "867206ab28946e1e30e6c1a10196609a11"	# for search engine
 k_APP_VER = "1.0.3"
 k_STAR_VER = "3"
 k_UNITY_VER = "5.5.4f1"
@@ -70,6 +71,3 @@ def _request_post(api_name, paramsDict):
 	else:
 		response = requests.request("POST", tmp_result_url, data=payload, headers=headers)
 	return response.text
-	
-if __name__ == "__main__":
-	print(tmp_uuid)
